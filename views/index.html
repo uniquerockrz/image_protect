@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <title>Image Protect</title>
+    </head>
+<body>
+    <h1>Hello, World!</h1>
+
+    <div id="image_div" style="width: 630; height: 640;"></div>
+    <div id="hash">{{hash}}</div>
+    <script type="text/javascript">
+        window.onload = function(){
+            var hashToSend = document.getElementById("hash").innerText;
+            document.getElementById("image_div").style.backgroundImage = "url('img.png?hash=" + hashToSend + "')";
+        }
+    </script>
+</body>
+</html>

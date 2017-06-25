@@ -1,0 +1,17 @@
+{
+  "name": "image_protect",
+  "version": "0.0.1",
+  "description": "Protecting images on the web",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saurav Modak saurav at linuxb dot in",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.14.5",
+    "express": "^4.15.3",
+    "handlebars": "^4.0.10",
+    "redis": "^2.7.1"
+  }
+}
